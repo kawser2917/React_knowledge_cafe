@@ -7,11 +7,13 @@ function App() {
 
   return (
     <>
-     <Header></Header>
-     <main className='md:flex'>
-     <Blogs></Blogs>
-     <Bookmarks></Bookmarks>
-     </main>
+      <div className='max-w-7xl mx-auto'>
+        <Header></Header>
+        <main className='md:flex'>
+          <Blogs></Blogs>
+          <Bookmarks></Bookmarks>
+        </main>
+      </div>
     </>
   )
 }
