@@ -10,7 +10,8 @@ const Blogs = () => {
         .then(data => setBlogs(data))
     },[])
     return (
-        <div>
+        <div className="w-2/3">
+            <h2 className="text-4xl">Blogs Content: {blogs.length}</h2>
             
         </div>
     );
